@@ -3,12 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-adsense-account" content="ca-pub-3950428230835389">
-    <meta name="google-site-verification" content="2soP2muPyzqRwuTFiqhK4YZdpTl5wkIZdIJsH3ld_rM" />
-    <title>Fleto | Web developing company</title>
+    <title>FLETO | Web Development Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>We design and Develop Websites</h1>
-    <h2>We're FLETO</h2>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>FLETO</h1>
+            <p>Innovative Web Solutions for Your Business</p>
+            <a href="#about" class="btn btn-primary">Learn More</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>FLETO is a cutting-edge web development company that specializes in delivering tailored digital solutions to meet diverse business needs. From custom websites to advanced cloud integration, we bring your ideas to life with creativity and precision.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Projects Delivered</p>
+                </div>
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <h2>Our Products</h2>
+            <div class="products">
+                <div class="product" data-reveal>
+                    <h3>FleBooks</h3>
+                    <p>A modern and intuitive online book library.</p>
+                    <a href="https://flebooks.netlify.app" target="_blank" class="btn btn-secondary">Visit FleBooks</a>
+                </div>
+                <div class="product" data-reveal>
+                    <h3>FleSearch</h3>
+                    <p>Advanced search engine tailored for your needs.</p>
+                    <a href="https://flesearch.netlify.app" target="_blank" class="btn btn-secondary">Visit FleSearch</a>
+                </div>
+                <div class="product" data-reveal>
+                    <h3>FleStorage</h3>
+                    <p>Secure and efficient cloud storage solutions.</p>
+                    <a href="https://flestorage.netlify.app" target="_blank" class="btn btn-secondary">Visit FleStorage</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service" data-reveal>
+                    <h3>Custom Web Development</h3>
+                    <p>Tailored websites that perfectly fit your business needs.</p>
+                </div>
+                <div class="service" data-reveal>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Engaging and high-performance online stores.</p>
+                </div>
+                <div class="service" data-reveal>
+                    <h3>Cloud Integration</h3>
+                    <p>Secure and scalable cloud-based infrastructure.</p>
+                </div>
+                <div class="service" data-reveal>
+                    <h3>SEO Optimization</h3>
+                    <p>Boost your website's visibility and ranking.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Ready to take your business to the next level? Get in touch with us today.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 FLETO. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
